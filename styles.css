@@ -1,0 +1,313 @@
+/* Navigation Bar Styles */
+nav {
+    background-color: #000000; 
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out; 
+}
+
+nav:hover {
+    background-color: red; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #efd5d5;
+    font-weight: bold;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #85b3be;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out; 
+}
+
+header:hover {
+    background-color: rgb(0, 255, 221); 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #efd5d5;
+    font-weight: bold;
+}
+
+
+
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333; 
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #efd5d5;
+    font-weight: bold;
+}
+
+
+#home {
+    position: relative;
+    text-align: center;
+    color: #ca3939;
+    padding: 100px 20px;
+    background-image: url("images/transportation.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#home h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 1.2em;
+}
+
+/* Services Section Styles */
+#services {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#services .service-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+#services .service {
+    width: 100%;
+    max-width: 300px; 
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#services .service:hover {
+    transform: translateY(-10px);
+}
+
+#services .service h3 {
+    font-size: 1.5em;
+}
+
+#services .service p {
+    font-size: 1em;
+}
+
+/* About Us Section Styles */
+#about {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#about div {
+    text-align: center;
+}
+
+#about img {
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#about h3 {
+    margin-top: 20px;
+}
+
+/* Testimonials Section Styles */
+#testimonials {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#testimonials .testimonial-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#testimonials .testimonial {
+    margin: 20px;
+}
+
+/* Contact Section Styles */
+#contact {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#contact .contact-content {
+    text-align: left;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact label {
+    margin-bottom: 10px;
+}
+
+#contact input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer nav ul li {
+    margin: 0 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Social Media Links in Footer */
+footer .social-media-container {
+    margin-top: 10px;
+}
+
+footer .social-media-container a {
+    margin: 0 10px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 900px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header .logo-container,
+    header nav,
+    header .cta-container {
+        margin-bottom: 10px;
+    }
+
+    #services .service-container {
+        flex-direction: column;
+    }
+
+    #services .service {
+        width: 100%;
+    }
+
+    #about img {
+        width: 100%;
+    }
+}

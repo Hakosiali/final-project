@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hako's Transportation Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <!-- Logo -->
+            <img src="c:\Users\BAB AL SAFA\Downloads\download (2).png" alt="Company Logo">
+        </div>
+        <nav>
+            <!-- Navigation Bar -->
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cta-container">
+            <!-- Buy Button -->
+            <a href="#get-quote" class="cta-button">Click to Order plz</a>
+        </div>
+    </header>
+
+    <section id="home">
+        <!-- Background Image-->
+        <img src="c:\Users\BAB AL SAFA\Downloads\download.jpg" alt="Transportation Image">
+        <div class="hero-content">
+            <!-- Headline -->
+            <h1>Your Transportation Solution</h1>
+            <p>Delivering excellence in every journey</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <!-- Service Offerings -->
+        <div class="service-container">
+            <!-- Service 1 -->
+            <div class="service">
+                <h3>Parcel Delivery Services</h3>
+                <p>Offering courier and parcel delivery services for small packages.</p>
+            </div>
+            <!-- Service 2 -->
+            <div class="service">
+                <h3>Airport Transportation</h3>
+                <p>Providing reliable and comfortable transportation to and from airports.</p>
+            </div>
+            <!-- i'll add later if i thought of more  -->
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <!-- Overview -->
+            <p>Welcome to Hako's Transportation Company, your destination for exceptional transportation. Our mission is simple: to provide safe, reliable, and efficient transport that exceeds expectations. With a focus on safety, reliability, and sustainability, we've been a trusted partner since 2023. Choose Hako's Transportation Company for seamless journeys, personalized service, and excellence in every ride.</p>
+            <!-- Team -->
+            <img src="c:\Users\BAB AL SAFA\Downloads\Open House Announcement Instagram Post.png" alt="Team Photo">
+            <!-- Why Us -->
+            <h3>Why Choose Us</h3>
+            <ul>
+                <li>Reliability</li>
+                <li>Efficiency</li>
+                <li>Competitive Pricing</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- our  -->
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial-container">
+            <!-- Customer Reviews and Logos -->
+            <div class="testimonial">
+                <p>"Great service! Highly recommended."</p>
+                <p>- by: Customer</p>
+            </div>
+            <!-- Add more testimonials as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+            <!-- Contact Information -->
+            <p>Address: Beb Ezzouar</p>
+            <p>Phone: +123 3141435555</p>
+            <p>Email: transport_hakos@gmail.com</p>
+            <!-- Contact Form -->
+            <form action="submit-form.php" method="post">
+                <!--form fields here -->
+                <label for="name">Hako's Transportation Company</label>
+                <input type="text" id="name" name="name" required>
+                <!-- Add more form fields as needed -->
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <nav>
+            <!-- Repeat Navigation Links -->
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="social-media-container">
+            <!-- Social Media Links -->
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+        </div>
+        <p>&copy; 2023 Hako's Transportation Company. All rights reserved.</p>
+    </footer>
+    
+    <script>
+        // JavaScript for interactivity
+        function expandService(element) {
+            element.style.transform = "scale(1.1)";
+        }
+
+        function shrinkService(element) {
+            element.style.transform = "scale(1)";
+        }
+
+        function validateForm() {
+            // Add form validation logic here
+            var name = document.getElementById('hako company').value;
+            if (name.trim() === "") {
+                alert("Hako");
+                return false;
+            }
+            // Add more validation as needed
+            return true;
+        }
+    </script>
+
+</body>
+
+</html>
